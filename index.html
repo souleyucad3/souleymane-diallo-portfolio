@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Souleymane Diallo - Développeur Web et Mobile spécialisé en Flutter, Laravel, et applications innovantes">
+    <title>Souleymane Diallo - Développeur Web & Mobile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">SD</span>
+                <span class="name">Souleymane Diallo</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                <li><a href="#apropos" class="nav-link">À propos</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Hero / Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Bonjour, je suis</span>
+                        <span class="name-highlight">Souleymane Diallo</span>
+                        <span class="role">Développeur Web & Mobile</span>
+                    </h1>
+                    <p class="hero-description">
+                        Je crée des applications web et mobiles innovantes avec Flutter, Laravel et les technologies modernes. 
+                        Spécialisé dans les solutions de géolocalisation, gestion de projets et systèmes intelligents.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                        <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/souleymane-diallo-567304392" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:souleymanediallo2@esp.sn" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+221777457590" class="social-link">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="floating-card">
+                        <div class="code-snippet">
+                            <div class="code-line">
+                                <span class="code-keyword">const</span> 
+                                <span class="code-var">developer</span> = {
+                            </div>
+                            <div class="code-line indent">
+                                <span class="code-property">name</span>: 
+                                <span class="code-string">'Souleymane'</span>,
+                            </div>
+                            <div class="code-line indent">
+                                <span class="code-property">skills</span>: [
+                                <span class="code-string">'Flutter'</span>,
+                                <span class="code-string">'Laravel'</span>,
+                                <span class="code-string">'JavaScript'</span>
+                                ],
+                            </div>
+                            <div class="code-line indent">
+                                <span class="code-property">passion</span>: 
+                                <span class="code-string">'Innovation'</span>
+                            </div>
+                            <div class="code-line">};</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À propos de moi</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Diplômé en <strong>Génie Logiciel et Systèmes d'Information</strong> de l'École Supérieure Polytechnique de Dakar, 
+                        je possède une solide formation en développement d'applications, conception de bases de données et architecture des systèmes.
+                    </p>
+                    <p class="about-description">
+                        Passionné par les technologies innovantes, je me spécialise dans la création d'applications web et mobiles 
+                        performantes, avec une expertise particulière dans les solutions de géolocalisation en temps réel et les systèmes 
+                        de gestion intelligents.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="10">0</div>
+                            <div class="stat-label">Projets réalisés</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="3">0</div>
+                            <div class="stat-label">Années d'expérience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="100">0</div>
+                            <div class="stat-label">% Satisfaction client</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="tech-badge flutter">Flutter</div>
+                        <div class="tech-badge laravel">Laravel</div>
+                        <div class="tech-badge js">JavaScript</div>
+                        <div class="tech-badge php">PHP</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes Projets</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Découvrez mes réalisations et exemples de travail</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Projet 1: Application de Pointage Biométrique -->
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tags">
+                                <span class="tag">Flutter</span>
+                                <span class="tag">Laravel</span>
+                                <span class="tag">API REST</span>
+                                <span class="tag">Géolocalisation</span>
+                            </div>
+                        </div>
+                        <div class="project-mockup mobile">
+                            <div class="phone-frame">
+                                <div class="phone-screen">
+                                    <div class="app-preview biometric">
+                                        <div class="app-header">Pointage Biométrique</div>
+                                        <div class="app-content">
+                                            <div class="biometric-icon">👤</div>
+                                            <div class="location-indicator">📍</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Application Mobile de Pointage Biométrique</h3>
+                        <p class="project-description">
+                            Application mobile innovante de pointage biométrique avec géolocalisation pour travailleurs mobiles. 
+                            Solution complète avec authentification sécurisée et suivi en temps réel.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Authentification biométrique</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Géolocalisation en temps réel</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>API RESTful sécurisée</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Dashboard de gestion</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <strong>Technologies:</strong> Flutter (Android), Laravel (PHP), API RESTful, MySQL
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 2: Application de Gestion de Colis -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tags">
+                                <span class="tag">Web App</span>
+                                <span class="tag">Mobile</span>
+                                <span class="tag">Géolocalisation</span>
+                                <span class="tag">Temps réel</span>
+                            </div>
+                        </div>
+                        <div class="project-mockup web-mobile">
+                            <div class="browser-frame">
+                                <div class="browser-header">
+                                    <div class="browser-dots">
+                                        <span></span><span></span><span></span>
+                                    </div>
+                                </div>
+                                <div class="browser-content">
+                                    <div class="app-preview package">
+                                        <div class="package-header">Gestion de Colis</div>
+                                        <div class="package-list">
+                                            <div class="package-item">📦 Colis #1234</div>
+                                            <div class="package-item">📦 Colis #1235</div>
+                                            <div class="package-item">📦 Colis #1236</div>
+                                        </div>
+                                        <div class="map-preview">🗺️ Carte de suivi</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Système de Gestion de Colis avec Géolocalisation</h3>
+                        <p class="project-description">
+                            Application web et mobile complète pour la gestion de colis avec suivi en temps réel. 
+                            Permet aux clients de suivre leurs livraisons et aux gestionnaires de coordonner les opérations.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Suivi en temps réel</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Interface web et mobile</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Notifications push</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Gestion multi-utilisateurs</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <strong>Technologies:</strong> Laravel, Flutter, JavaScript, MySQL, WebSockets
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Compétences Techniques</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Compétences Techniques
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon angular-icon">
+                                <i class="fab fa-angular"></i>
+                            </div>
+                            <div class="skill-name">Angular</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon react-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="skill-name">React</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon js-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon bootstrap-icon">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <div class="skill-name">Bootstrap</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="87"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon mongo-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="skill-name">MongoDB</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon flutter-icon">F</div>
+                            <div class="skill-name">Flutter</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon laravel-icon">
+                                <i class="fab fa-laravel"></i>
+                            </div>
+                            <div class="skill-name">Laravel</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon mysql-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-name">MySQL</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon github-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="skill-name">Github</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez-moi</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Discutons de votre prochain projet</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>souleymanediallo2@esp.sn</p>
+                        <a href="mailto:souleymanediallo2@esp.sn">Envoyer un email</a>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Téléphone</h3>
+                        <p>+221 77 745 75 90</p>
+                        <a href="tel:+221777457590">Appeler</a>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Connectez-vous avec moi</p>
+                        <a href="https://www.linkedin.com/in/souleymane-diallo-567304392" target="_blank">Voir le profil</a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Envoyer le message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Souleymane Diallo. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="#accueil">Accueil</a>
+                    <a href="#apropos">À propos</a>
+                    <a href="#projets">Projets</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
